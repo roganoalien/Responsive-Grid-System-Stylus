@@ -1,0 +1,46 @@
+/*
+** Responsive Grid System of 5 | default margin of 1.6%
+*/
+.section
+	clear both
+	padding 0
+	margin 0
+.col
+	display block
+	float left
+	margin 1% 0 1% 1.6%
+	&:first-child
+		margin-left 0
+	@media all and (max-width: 480px)
+		margin 1% 0 1% 0%	
+
+.group:before,
+.group:after
+	content ""
+	display table
+.group:after
+	clear both
+.group
+	zoom 1
+
+/* Grid of Five */
+.span_1_of_5
+	width 18.72%
+	@media all and (max-width: 480px)
+		width 100%
+.span_2_of_5
+	width 39.04%
+	@media all and (max-width: 480px)
+		width 100%
+.span_3_of_5
+	width 59.36%
+	@media all and (max-width: 480px)
+		width 100%
+.span_4_of_5
+	width 79.68%
+	@media all and (max-width: 480px)
+		width 100%
+.span_5_of_5
+	width 100%
+	@media all and (max-width: 480px)
+		width 100%

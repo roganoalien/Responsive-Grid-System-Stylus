@@ -1,0 +1,62 @@
+/*
+** Responsive Grid System of 9 | default margin of 1.6%
+*/
+.section
+	clear both
+	padding 0
+	margin 0
+.col
+	display block
+	float left
+	margin 1% 0 1% 1.6%
+	&:first-child
+		margin-left 0
+	@media all and (max-width: 480px)
+		margin 1% 0 1% 0%	
+
+.group:before,
+.group:after
+	content ""
+	display table
+.group:after
+	clear both
+.group
+	zoom 1
+
+/* Grid of Nine */
+.span_1_of_9
+	width 9.688%
+	@media all and (max-width: 480px)
+		width 100%
+.span_2_of_9
+	width 20.97%
+	@media all and (max-width: 480px)
+		width 100%
+.span_3_of_9
+	width 32.26%
+	@media all and (max-width: 480px)
+		width 100%
+.span_4_of_9
+	width 43.55%
+	@media all and (max-width: 480px)
+		width 100%
+.span_5_of_9
+	width 54.84%
+	@media all and (max-width: 480px)
+		width 100%
+.span_6_of_9
+	width 66.13%
+	@media all and (max-width: 480px)
+		width 100%
+.span_7_of_9
+	width 77.42%
+	@media all and (max-width: 480px)
+		width 100%
+.span_8_of_9
+	width 88.71%
+	@media all and (max-width: 480px)
+		width 100%
+.span_9_of_9
+	width 100%
+	@media all and (max-width: 480px)
+		width 100%

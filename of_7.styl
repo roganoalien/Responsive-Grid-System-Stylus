@@ -1,0 +1,54 @@
+/*
+** Responsive Grid System of 7 | default margin of 1.6%
+*/
+.section
+	clear both
+	padding 0
+	margin 0
+.col
+	display block
+	float left
+	margin 1% 0 1% 1.6%
+	&:first-child
+		margin-left 0
+	@media all and (max-width: 480px)
+		margin 1% 0 1% 0%	
+
+.group:before,
+.group:after
+	content ""
+	display table
+.group:after
+	clear both
+.group
+	zoom 1
+
+/* Grid of Seven */
+.span_1_of_7
+	width 12.91%
+	@media all and (max-width: 480px)
+		width 100%
+.span_2_of_7
+	width 27.42%
+	@media all and (max-width: 480px)
+		width 100%
+.span_3_of_7
+	width 41.94%
+	@media all and (max-width: 480px)
+		width 100%
+.span_4_of_7
+	width 56.45%
+	@media all and (max-width: 480px)
+		width 100%
+.span_5_of_7
+	width 70.97%
+	@media all and (max-width: 480px)
+		width 100%
+.span_6_of_7
+	width 85.48%
+	@media all and (max-width: 480px)
+		width 100%
+.span_7_of_7
+	width 100%
+	@media all and (max-width: 480px)
+		width 100%
